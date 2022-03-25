@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background: url('https://www.ixpap.com/images/2021/03/desktop-naruto-wallpaper-ixpap.jpg') center / cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arrow{
+    position: absolute;
+    top: 1rem;
+    width: 100px;
+    cursor: pointer;
+    left:1rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.container .title-card{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.container .card{
+    width: 600px;
+   min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid slategray;
+    margin: 0 25px;
+    padding: 20px 0;
+    border-radius: 12px;
+    background:url('https://i.pinimg.com/originals/78/87/f7/7887f71915284214d248f813901bd1b3.png') center / cover;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.container .card .form-control{
+    width: 350px;
+    height: 25px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+    outline: none;
+}
+.add-btn{
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #19AF71;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    margin-top:10px;
+
+}
